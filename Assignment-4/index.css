@@ -1,0 +1,45 @@
+* {
+    font-family: 'Lora', serif;
+}
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('images/bgImage2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+label {
+    font-weight: bold;
+    color: #D35400;
+}
+
+a {
+    color: #D35400;
+}
+
+input {
+    padding: 7px;
+    width: 60%;
+    margin-top: 2px;
+    border-radius: 3px;
+    background-color: #EAEDED;
+}
+#admin {
+    margin-bottom: -25px;
+}
+.profile_image {
+    float: right;
+    margin-top: -35px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+#edit_btn {
+    margin-bottom: 17px;
+    float: right;
+}
+#add_btn {
+    margin-bottom: 17px;
+    float: right;
+}
+
+

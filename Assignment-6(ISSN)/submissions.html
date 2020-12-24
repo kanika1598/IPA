@@ -1,0 +1,286 @@
+<html>
+
+<head>
+    <title>Indraprasth Shodh Sandarsh</title>
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <style>
+        @media(max-width: 768px) {
+            #navbarNav {
+                margin-right: 30%;
+            }
+        }
+
+        ul.nav li.dropdown:hover ul.dropdown-menu {
+            display: block;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="top_bar">
+        <div id="navbarNav" style="margin-left: 77%;">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Troubleshooting</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="nav-bar">
+        <a href="#"><img class="logo" style="height: 110px;
+            width: 135px;margin-top:20px;margin-left: 45%;" src="images/logo.jpg"></a><br>
+        <h3 style="text-align: center; margin-top:10px; color:#191970;"><b>Indraprasth Shodh Sandarsh</b></h3>
+        <h3 style="text-align: center; color:red;"><b>इंद्रप्रस्थ शोध संदर्श</h3></b>
+    </section>
+
+    <section id="mid_bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i style="color: white;" class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About the Journal
+                        </a>
+                        <div class="dropdown-menu" style="background-color: black;" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-dark" href="about_journal.html">About</a>
+                            <a class="dropdown-item text-dark" href="about_journal.html">Editorial Board</a>
+                            <a class="dropdown-item text-dark" href="about_journal.html">Privacy Statement</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="submissions.html">Submissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Current</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Archives</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Author Desk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+
+    <section id="about_sandarsh">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12" style="margin-top: 50px;">
+                    <h5 style="text-align: center; font-size: 25px;color:red;" class="title"><b>Submissions</b></h5>
+                    <p style="padding-right: 30px;">
+                    </p>
+                    <div class="login_register">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#loginModal">
+                            Login
+                        </button> <b>OR</b>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#registerModal">
+                            Register
+                        </button>
+                    </div>
+
+
+                    <h5 style="text-align: center; font-size: 25px;color:red;" class="title"><b>Author Guidelines</b>
+                    </h5>
+                    <ol style="font-size: 16px;">
+                        <li>इस शोध पत्रिका में निम्नलिखित चार खंडों के अन्तर्गत मौलिक आलेख आमंत्रित हैं:
+                            <ul>
+                                <li>शोध पत्र</li>
+                                <li>अंतर्दृष्टि</li>
+                                <li>पुस्तक समीक्षा</li>
+                                <li>विविधा</li>
+                            </ul>
+                        </li><br>
+                        <li>लेख हिंदी, संस्कृत और अंग्रेजी भाषा में भेजे जा सकते हैं।</li>
+                        <li>लेख मानविकी और सामाजिक विज्ञान के किसी भी पक्ष से संबंधित हो सकते हैं।</li>
+                        <li>शोध पत्रों में पर्याप्त संदर्भों का होना आवश्यक है।</li>
+                        <li>लेख के प्रकाशन का निर्णय विद्वत-समीक्षा (peer-review) के पश्चात ही किया जाएगा।</li>
+                        <li>लेख के साथ उसकी मौलिकता का प्रमाण पत्र संलग्न होना आवश्यक है।
+                            <ul>
+                                <li>शोध पत्र: 6000-7000 शब्द</li>
+                                <li>अंतर्दृष्टि: 2000-3000 शब्द</li>
+                                <li>पुस्तक समीक्षा: 1500-2000 शब्द</li>
+                                <li>विविधा: 500-1000 शब्द</li>
+                            </ul>
+                        </li><br>
+                        <li>लेख Ariel Unicode/Times New Roman में 12 फ़ॉन्ट आकार में 1.5 स्पेस में टाइप होना चाहिए।</li>
+                        <li>किसी लेख के प्रकाशन के बारे में संपादक का निर्णय अंतिम होगा।</li>
+                        <li>"विविधा" खंड के अन्तर्गत संस्मरण, यात्रा वृत्तांत, कविता, रेखाचित्र, प्रेरक प्रसंग इत्यादि
+                            भेजे
+                            जा सकते हैं।</li>
+
+                    </ol>
+                    <br>
+                    <p style="font-size: 16px;">विद्वत वर्ग से निवेदन है कि उपरोक्त बिंदुओं को दृष्टिगत करते हुए विभिन्न
+                        खंडों हेतु अपने शोध
+                        पत्र/ लेख/रचना ipss.ipak@gmail.com पर प्रेषित करें।</p>
+                </div>
+                <div class="col-md-1 vl" style="margin-top: 50px;">
+                </div>
+                <div class="col-md-3 col-sm-12" style="margin-top: 50px;">
+                    <!-- Button trigger modal -->
+                    <a href="submissions.html" style="margin-left: 15%;" class="submission btn btn-success">Make a
+                        Submission</a>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">LOGIN to Make Submission</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" aria-describedby="emailHelp"
+                                name="username" placeholder="Enter Your Username"></div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter Your Password"
+                                name="password">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success">LOGIN</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">REGISTER to Make Submission</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <h5>PROFILE</h5>
+                        <div class="form-group">
+                            <label for="name">Given Name</label>
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" name="name"
+                                placeholder="Enter Your Given Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="family_name">Family Name</label>
+                            <input type="text" class="form-control" id="family_name" aria-describedby="emailHelp"
+                                name="family_name" placeholder="Enter Your Family Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="affiliation">Affiliation</label>
+                            <input type="text" class="form-control" id="affiliation" aria-describedby="emailHelp"
+                                name="affiliation" placeholder="Enter Your Affiliation">
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <input type="text" class="form-control" id="country" aria-describedby="emailHelp"
+                                name="country" placeholder="Enter Your Country">
+                        </div>
+                        <h5>LOGIN</h5>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                name="email" placeholder="Enter Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" aria-describedby="emailHelp"
+                                name="username" placeholder="Enter Your Username"></div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter Your Password"
+                                name="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Repeat Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter Your Password"
+                                name="confirm_password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1" name="check1">Yes, I agree to have my
+                                data collected and stored according to the <a style="color: blueviolet;"
+                                    href="about_journal.html">privacy
+                                    statement</a>.</label>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1" name="check2">Yes, I would like to be
+                                notified of new publications and announcements.</label>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1" name="check3"> Yes, I would like to be
+                                contacted with requests to review submissions to this journal.</label>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success">REGISTER</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----------footer------------->
+    <section id="footer" style="margin-top: 150px;">
+        <h6 style="text-align: center;">&copy;<b>Copyright @ ipadhyayankendra 2019. Rights reserved.</b></h6>
+    </section>
+
+
+</body>
+
+
+</html>
